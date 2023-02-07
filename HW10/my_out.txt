@@ -1,0 +1,124 @@
+  1vector              sort               10,000 length 5 strings     0.0160 sec     3932 kb
+  2vector              sort               50,000 length 5 strings     0.0440 sec     5256 kb
+  3vector              sort              100,000 length 5 strings     0.0800 sec     7464 kb
+  4vector              sort              500,000 length 5 strings     0.4040 sec    19780 kb
+  5vector              remove_dups         5,000 length 3 strings     0.2400 sec     3636 kb
+  6vector              remove_dups        10,000 length 3 strings     0.8190 sec     3884 kb
+  7vector              remove_dups        20,000 length 3 strings     2.7553 sec     4308 kb
+  8vector              remove_dups        50,000 length 3 strings    11.1401 sec     5340 kb
+  9vector              mode               10,000 length 4 strings     0.0150 sec     3940 kb
+ 10vector              mode               50,000 length 4 strings     0.0398 sec     5260 kb
+ 11vector              mode              100,000 length 4 strings     0.0792 sec     7480 kb
+ 12vector              mode              500,000 length 4 strings     0.3879 sec    19844 kb
+ 13vector              closest_pair       10,000 8 digit integers     0.0120 sec     3560 kb
+ 14vector              closest_pair       50,000 8 digit integers     0.0360 sec     3584 kb
+ 15vector              closest_pair      100,000 8 digit integers     0.0680 sec     3808 kb
+ 16vector              closest_pair      500,000 8 digit integers     0.3160 sec     5396 kb
+ 17vector              first 50 sorted   10,0000 length 4 strings     0.0120 sec     3976 kb
+ 18vector              first 50 sorted   20,0000 length 4 strings     0.0400 sec     5328 kb
+ 19vector              first 50 sorted   50,0000 length 4 strings     0.0793 sec     7464 kb
+ 20vector              first 50 sorted  100,0000 length 4 strings     0.3954 sec    19856 kb
+ 21vector              longest_substring    500 length 20 strings     0.3800 sec     1592 kb
+ 22vector              longest_substring  1,000 length 20 strings     1.4240 sec     1588 kb
+ 23vector              longest_substring  2,000 length 20 strings     5.3196 sec     3460 kb
+ 24vector              longest_substring  3,000 length 20 strings    14.4183 sec     3672 kb
+ 25
+ 26linked list         sort               10,000 length 5 strings     0.0192 sec     4112 kb
+ 27linked list         sort               50,000 length 5 strings     0.0620 sec     6324 kb
+ 28linked list         sort              100,000 length 5 strings     0.1320 sec     9348 kb
+ 29linked list         sort              500,000 length 5 strings     0.8040 sec    34708 kb
+ 30linked list         remove_dups         5,000 length 3 strings     0.4200 sec     3432 kb
+ 31linked list         remove_dups        10,000 length 3 strings     1.4993 sec     4072 kb
+ 32linked list         remove_dups        20,000 length 3 strings     4.9840 sec     4476 kb
+ 33linked list         remove_dups        50,000 length 3 strings    20.6361 sec     6336 kb
+ 34linked list         mode               10,000 length 4 strings     0.0194 sec     4076 kb
+ 35linked list         mode               50,000 length 4 strings     0.0640 sec     6440 kb
+ 36linked list         mode              100,000 length 4 strings     0.1280 sec     9616 kb
+ 37linked list         mode              500,000 length 4 strings     0.7840 sec    34580 kb
+ 38linked list         closest_pair       10,000 8 digit integers     0.0160 sec     3572 kb
+ 39linked list         closest_pair       50,000 8 digit integers     0.0600 sec     4640 kb
+ 40linked list         closest_pair      100,000 8 digit integers     0.1192 sec     6396 kb
+ 41linked list         closest_pair      500,000 8 digit integers     0.6796 sec    18896 kb
+ 42linked list         first 50 sorted   10,0000 length 4 strings     0.0160 sec     3848 kb
+ 43linked list         first 50 sorted   20,0000 length 4 strings     0.0600 sec     6440 kb
+ 44linked list         first 50 sorted   50,0000 length 4 strings     0.1200 sec     9604 kb
+ 45linked list         first 50 sorted  100,0000 length 4 strings     0.7472 sec    34580 kb
+ 46linked list         longest_substring    500 length 20 strings     0.6240 sec     1524 kb
+ 47linked list         longest_substring  1,000 length 20 strings     2.3030 sec     1460 kb
+ 48linked list         longest_substring  2,000 length 20 strings     8.4941 sec     3428 kb
+ 49linked list         longest_substring  3,000 length 20 strings    22.2953 sec     3536 kb
+ 50
+ 51binary search tree  sort               10,000 length 5 strings     0.0320 sec     5624 kb
+ 52binary search tree  sort               50,000 length 5 strings     0.1437 sec    15164 kb
+ 53binary search tree  sort              100,000 length 5 strings     0.3434 sec    26676 kb
+ 54binary search tree  sort              500,000 length 5 strings     2.0193 sec   118920 kb
+ 55binary search tree  remove_dups         5,000 length 3 strings     0.5000 sec     4344 kb
+ 56binary search tree  remove_dups        10,000 length 3 strings     1.9513 sec     5276 kb
+ 57binary search tree  remove_dups        20,000 length 3 strings     7.0021 sec     6744 kb
+ 58binary search tree  remove_dups        50,000 length 3 strings    29.5119 sec     9920 kb
+ 59binary search tree  mode               10,000 length 4 strings     0.0320 sec     5684 kb
+ 60binary search tree  mode               50,000 length 4 strings     0.1510 sec    14572 kb
+ 61binary search tree  mode              100,000 length 4 strings     0.3120 sec    25092 kb
+ 62binary search tree  mode              500,000 length 4 strings     1.7472 sec    89816 kb
+ 63binary search tree  closest_pair       10,000 8 digit integers     0.0200 sec     4380 kb
+ 64binary search tree  closest_pair       50,000 8 digit integers     0.0880 sec     7920 kb
+ 65binary search tree  closest_pair      100,000 8 digit integers     0.2070 sec    12688 kb
+ 66binary search tree  closest_pair      500,000 8 digit integers     1.1960 sec    50032 kb
+ 67binary search tree  first 50 sorted   10,0000 length 4 strings     0.0320 sec     5660 kb
+ 68binary search tree  first 50 sorted   20,0000 length 4 strings     0.1515 sec    15164 kb
+ 69binary search tree  first 50 sorted   50,0000 length 4 strings     0.3160 sec    26820 kb
+ 70binary search tree  first 50 sorted  100,0000 length 4 strings     1.9200 sec   118924 kb
+ 71binary search tree  longest_substring    500 length 20 strings     0.7040 sec     3432 kb
+ 72binary search tree  longest_substring  1,000 length 20 strings     3.1478 sec     3812 kb
+ 73binary search tree  longest_substring  2,000 length 20 strings    13.1760 sec     4120 kb
+ 74binary search tree  longest_substring  3,000 length 20 strings    NOT IMPLEMENTED
+ 75
+ 76priority queue      sort               10,000 length 5 strings     0.0200 sec     3960 kb
+ 77priority queue      sort               50,000 length 5 strings     0.0760 sec     5316 kb
+ 78priority queue      sort              100,000 length 5 strings     0.1680 sec     7484 kb
+ 79priority queue      sort              500,000 length 5 strings     0.9440 sec    19676 kb
+ 80priority queue      remove_dups         5,000 length 3 strings    NOT IMPLEMENTED
+ 81priority queue      remove_dups        10,000 length 3 strings    NOT IMPLEMENTED
+ 82priority queue      remove_dups        20,000 length 3 strings    NOT IMPLEMENTED
+ 83priority queue      remove_dups        50,000 length 3 strings    NOT IMPLEMENTED
+ 84priority queue      mode               10,000 length 4 strings     0.0160 sec     3952 kb
+ 85priority queue      mode               50,000 length 4 strings     0.0760 sec     5440 kb
+ 86priority queue      mode              100,000 length 4 strings     0.1600 sec     7436 kb
+ 87priority queue      mode              500,000 length 4 strings     0.8548 sec    19800 kb
+ 88priority queue      closest_pair       10,000 8 digit integers     0.0152 sec     3520 kb
+ 89priority queue      closest_pair       50,000 8 digit integers     0.0600 sec     3604 kb
+ 90priority queue      closest_pair      100,000 8 digit integers     0.1240 sec     3848 kb
+ 91priority queue      closest_pair      500,000 8 digit integers     0.6800 sec     5384 kb
+ 92priority queue      first 50 sorted   10,0000 length 4 strings     0.0120 sec     3936 kb
+ 93priority queue      first 50 sorted   20,0000 length 4 strings     0.0279 sec     5440 kb
+ 94priority queue      first 50 sorted   50,0000 length 4 strings     0.0520 sec     7256 kb
+ 95priority queue      first 50 sorted  100,0000 length 4 strings     0.2200 sec    19708 kb
+ 96priority queue      longest_substring    500 length 20 strings    NOT IMPLEMENTED
+ 97priority queue      longest_substring  1,000 length 20 strings    NOT IMPLEMENTED
+ 98priority queue      longest_substring  2,000 length 20 strings    NOT IMPLEMENTED
+ 99priority queue      longest_substring  3,000 length 20 strings    NOT IMPLEMENTED
+100
+101hash table          sort               10,000 length 5 strings    NOT IMPLEMENTED
+102hash table          sort               50,000 length 5 strings    NOT IMPLEMENTED
+103hash table          sort              100,000 length 5 strings    NOT IMPLEMENTED
+104hash table          sort              500,000 length 5 strings    NOT IMPLEMENTED
+105hash table          remove_dups         5,000 length 3 strings     0.2120 sec     4476 kb
+106hash table          remove_dups        10,000 length 3 strings     0.6240 sec     5484 kb
+107hash table          remove_dups        20,000 length 3 strings     1.5599 sec     6880 kb
+108hash table          remove_dups        50,000 length 3 strings     2.9400 sec     8164 kb
+109hash table          mode               10,000 length 4 strings     0.0240 sec     6188 kb
+110hash table          mode               50,000 length 4 strings     0.1120 sec    17792 kb
+111hash table          mode              100,000 length 4 strings     0.2520 sec    31156 kb
+112hash table          mode              500,000 length 4 strings     0.9759 sec    90332 kb
+113hash table          closest_pair       10,000 8 digit integers    NOT IMPLEMENTED
+114hash table          closest_pair       50,000 8 digit integers    NOT IMPLEMENTED
+115hash table          closest_pair      100,000 8 digit integers    NOT IMPLEMENTED
+116hash table          closest_pair      500,000 8 digit integers    NOT IMPLEMENTED
+117hash table          first 50 sorted   10,0000 length 4 strings    NOT IMPLEMENTED
+118hash table          first 50 sorted   20,0000 length 4 strings    NOT IMPLEMENTED
+119hash table          first 50 sorted   50,0000 length 4 strings    NOT IMPLEMENTED
+120hash table          first 50 sorted  100,0000 length 4 strings    NOT IMPLEMENTED
+121hash table          longest_substring    500 length 20 strings     0.7829 sec     3444 kb
+122hash table          longest_substring  1,000 length 20 strings     2.8600 sec     3836 kb
+123hash table          longest_substring  2,000 length 20 strings    13.1077 sec     3924 kb
+124hash table          longest_substring  3,000 length 20 strings    22.5517 sec     4592 kb

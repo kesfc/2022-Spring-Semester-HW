@@ -1,0 +1,6 @@
+Error: unknown data structure: string
+Usage: <executable_name> <data structure> <operation> <type> <optional_arg>  < input_file   > output_file
+Usage:    <data structure> = vector, list, bst, priority_queue, hash_table
+Usage:    <operation>      = sort, remove_duplicates, mode, closest_pair, first_sorted, or longest_substring
+Usage:    <type>           = integer or string
+Usage:    integer optional_arg required for first_sorted
